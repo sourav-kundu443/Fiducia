@@ -1,0 +1,477 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.main{
+    width: 100%;
+    height: 95vh;
+    background-image: url(./images/heroscreen.png);
+    background-size: cover;
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 10vh;
+    padding: 0 200px;
+    box-sizing: border-box;
+    background-color: #222222e5;
+}
+
+nav .logo {
+    padding: 20px 20px;
+    height: 80px;
+    float: left;
+    font-size: 35px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #fff;
+    letter-spacing: 1.5px;
+
+}
+
+nav ul {
+    list-style: none;
+    float: right;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li a{
+    line-height: 80px;
+    color: #fff;
+    padding: 12px 30px;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.row{
+    display: flex;
+    height: 100%;
+    justify-items: center;
+    align-items: center;
+    padding-top: 90px;
+}
+
+.col{
+    flex-basis: 50%;
+    margin-left: 40px;
+}
+.col h1 {
+    text-transform: uppercase;
+    margin-left: 100px;
+    margin-top: 40px;
+}
+
+.col p{
+    margin-left: 100px;
+    margin-top: 30px;
+}
+
+.btn {
+    text-align: center;
+    padding: 10px 20px;
+    font-size: 20px;
+    margin: 80px 100px;
+    background-color: #ff6700;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.text {
+    color: #fff;
+}
+
+.b-image {
+    background-image: url(./images/tubelight.jpg);
+    width: 500px;
+    height: 300px;
+    background-size: cover;
+
+    border-radius: 20px 20px 20px 20px;
+    -moz-border-radius: 20px 20px 20px 20px;
+    -webkit-border-radius: 20px 20px 20px 20px;
+    border: 0px solid #000000;
+}
+
+/* ---------------------------------------------------------- */
+
+.achievments-section{
+    display: flex;
+    width: 100%;
+    height: 22vh;
+    justify-content: center;
+    padding-top: 50px;
+    background-color: #c7c7c7;
+}
+
+.a-box {
+    width: 180px;
+    height: 10vh;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.achievments-section .box-1{
+    border: 3px solid #1B98F5;
+}
+.achievments-section .box-2{
+    border: 3px solid #E03B8B;
+    margin: 0px 40px;
+}
+.achievments-section .box-3{
+    border: 3px solid #ff6700;
+}
+
+.achievments-section #bs {
+    color: #1B98F5;
+}
+.achievments-section #pd {
+    color: #E03B8B;
+}
+.achievments-section #sm {
+    color: #ff6700;
+}
+
+.achievments-section .a-txt {
+    font-size: 15px;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+/* ------------------------------------------- */
+
+.products {
+    width: 100%;
+    height: 60vh;
+    /* border: 1px solid #ff6700; */
+}
+
+.products .row-1 {
+    text-align: center;
+}
+
+.products .row-1 h2{
+    font-size: 30px;
+    margin: 40px 0 20px 0;
+}
+
+.products .row-2{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.p-card {
+    background: #fff;
+    width: 300px;
+    height: 400px;
+    margin: 10px;
+    padding: 0 20px;
+    text-align: center;
+    
+    /* box shadow from css matic */
+
+    -webkit-box-shadow: 6px 6px 14px -4px rgba(0,0,0,0.75);
+    -moz-box-shadow: 6px 6px 14px -4px rgba(0,0,0,0.75);
+    box-shadow: 6px 6px 14px -4px rgba(0,0,0,0.75);
+
+    transition: .1s ease;
+}
+
+.product-image {
+    height: 270px;
+    margin-bottom: 15px;
+}
+
+.product-image-1{
+    background: url(./images/img-1.jpg);
+    background-size: cover;
+    padding: 20px;
+}
+
+.p-card h4 {
+    text-transform: uppercase;
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+.p-card p {
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+
+.row-3 {
+    text-align: center;
+    color: #ff6700;
+    font-size: 25px;
+    margin: 20px 0;
+}
+
+/* ------------------------------------------------------- */
+.ownership {
+    width: 100%;
+    height: 500px;
+    background-color: #e699ff;
+    margin: 220px 0 0 0;
+
+}
+
+.ownership .ownership-text {
+    text-align: center;
+}
+
+.ownership-text span {    
+    /* border: 1px solid red; */
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.ownership-text p {
+    margin-top: 20px;
+    letter-spacing: 1px;
+    font-size: 20px;
+}
+
+.ownership-card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ownership-card .arrow{
+    width: 50px;
+    height: 50px;
+    background-color: #4004cc;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.arrow i {
+    margin-top: 13px;
+    font-size: 25px;
+}
+.ownership-card .card{
+    width: 200px;
+    height: 200px;
+    background-color: #fff;
+    margin: 40px 20px;
+    border-radius: 5px;
+/* ------------------Box Shadow from CSS Matic--------------------------- */
+-webkit-box-shadow: 1px 1px 9px 2px rgba(145,140,145,1);
+-moz-box-shadow: 1px 1px 9px 2px rgba(145,140,145,1);
+box-shadow: 1px 1px 9px 2px rgba(145,140,145,1);
+}
+
+
+/* ------------------------------------------------- */
+
+.lower-section {
+    width: 100%;
+    height: 40vh;
+    background: url(./images/lower.jpg);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.lower-section p {
+    color: #ffffff;
+    margin-top: 30px;
+}
+
+.lower-section .btn {
+    margin-right: 40px;
+    /* border: 1px solid red; */
+}
+
+/* -------------------------------------------------------------- */
+
+.footer {
+    width: 100%;
+    background-color: #14102cf6;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid yellow; */
+}
+
+.footer .footer-row {
+    display: flex;
+    flex-direction: row;
+}
+
+.footer .copyright{
+    background-color: #2f2f2f;
+    width: 100%;
+    text-align: center;
+}
+
+.copyright p {
+    padding: 25px;
+    font-size: 13px;
+}
+
+.gallery-row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    /* border: 1px solid yellowgreen; */
+}
+
+.gallery-image div > img {
+    display: inline-block;
+    width: 15%;
+    height: 20%;
+    margin: .3rem;    
+    cursor: pointer;
+}
+
+.footer-row .col-1 {
+    width: 30%;
+}
+
+.col-1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 150px;
+}
+
+.footer-col .social-meadia {
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+.col-1 h1 {
+    text-transform: uppercase;
+    font-size: 35px;
+    margin: 50px 0 20px 0;
+    letter-spacing: 2px;
+}
+
+.col-1 p {
+    font-size: 15px;
+}
+
+.social-meadia div i {
+    font-size: 30px;
+    margin-left: 20px;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+.f{
+    color: #1895e9ea;
+}
+.l{
+    color: #0e76a8;
+}
+.y{
+    color: #FF0000;
+}
+.t{
+    color: #1DA1F2;
+}
+
+.social-meadia div i:hover {
+    color: #ffffff;
+    transition: .5s ease;
+}
+
+.footer-col h2 {
+    color: #ff512a;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 20px 0;
+}
+.footer-row .col-2 {
+    width: 40%;
+}
+
+.newsletter-container {
+    width: 70%;
+    height: 50px;
+    border-radius: 30px;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.newsletter-container input {
+    width: 100%;
+    height: 50px;
+    display: block;
+    border-radius: 30px;
+    border: none;
+    padding-left: 15px;
+    font-size: 15px;
+    letter-spacing: .7px;
+    outline: none;
+    background-color: #353535;
+    color: #e0e0e0;
+
+    /* -----------------Box shadow from css matic------------------------------------- */
+    -webkit-box-shadow: -1px 1px 9px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: -1px 1px 9px 0px rgba(0,0,0,0.75);
+    box-shadow: -1px 1px 9px 0px rgba(0,0,0,0.75);
+}
+
+.newsletter-container .button {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 40px;
+    height: 80%;
+    font-size: 25px;
+    background-color: #131313;
+    border-radius: 50%;
+    border: none;
+    margin-top: 5px;
+    cursor: pointer;
+    transition: 0.8s ease;
+}
+
+.newsletter-container .button:hover {
+    background-color: #ffffff;
+}
+
+.newsletter-container .button i {
+    margin: 0;
+    color: #ff6700;
+    transition: 0.8s ease;
+}
+.newsletter-container .button i:hover {
+    color: #353535;
+}
+.footer-row .col-3 {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+}
+
+.col-3 a {
+    text-decoration: none;
+    color: #c7c7c7;
+    margin-top: 15px;
+}
+.col-3 a:hover {
+    color: #ffffff;
+}
+.col-3 i {
+    color: #ff6700;
+}
+.col-3 .i-arrow {
+    /* font-family: sans-serif; */
+    margin-right: 10px;
+}
